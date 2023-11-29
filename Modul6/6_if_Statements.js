@@ -4,10 +4,10 @@ var age = 20;
 
 if(age >= 18) {
     // wenn bedingung wahr wird 
-        console.log("Eintritt gewährt")
+        console.log("Eintritt gewährt");
 } else {
     // wird in jedem anderen fall ausgeführt
-    console.log("nicht alt genug")
+    console.log("nicht alt genug");
 }
 
 
@@ -21,6 +21,8 @@ if(lowerColorName == "grün"){
     alert("du darfst anfahren oder musst bremsen");
 } else if(lowerColorName =="rot"){
     alert("du musst halten");
+} else {
+    alert("keine gültige Ampel-Farbe eingetragen")
 }
 
 // wenn orange-> amfahrem/bremsen
